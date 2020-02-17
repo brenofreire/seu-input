@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter, OnChanges, SimpleChanges } from '@angular/core';
 
 @Component({
-  selector: 'seu-input',
+  selector: 'seu-input-module',
   templateUrl: './seu-input.component.html',
   styleUrls: [`./seu-input.component.scss`]
 })

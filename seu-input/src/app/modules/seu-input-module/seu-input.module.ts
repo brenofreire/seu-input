@@ -15,4 +15,4 @@ import { FormsModule }   from '@angular/forms';
     SeuInputComponent
   ]
 })
-export class SeuInputModuleModule { }
+export class SeuInputModule { }
