@@ -1,6 +1,6 @@
 {
-  "name": "seu-input",
-  "version": "0.0.0",
+  "name": "@brenofreire/seu-input",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -45,5 +45,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brenofreire/seu-input/tree/master/seu-input"
   }
 }
