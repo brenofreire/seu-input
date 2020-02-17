@@ -1,0 +1,42 @@
+.seu-input {
+    position: relative;
+    border-radius: 8px !important;
+    input, textarea, div {
+        width: 100%;
+        height: max-content;
+        padding: 20px 8px 8px 8px;
+        font-size: 14px;
+        line-height: 16px;
+        transition: all .5s;
+        outline: none;
+        background-color: transparent;
+        border: 0;
+        color: initial;
+        text-align: left;
+        display: block;
+        &:focus + span {
+            color: #ba0340;
+        }
+    }
+    textarea {
+        min-width: 100%;
+        height: max-content;
+        resize: none;
+        display: block;
+    }
+    span {
+        position: absolute;
+        font-weight: 600;
+        left: 8px;
+        font-size: 10px;
+        color: #636363;
+        transition: .5s;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        background-color: transparent;
+        padding-top: 6px;
+        width: 100%;
+        z-index: 1001;
+        top: 0;
+    }
+}

@@ -1,0 +1,7 @@
+<div [class]="'seu-input ' + theme" >
+    <input class="seu-input-item" (input)="inputChange()" [type]="inputType" *ngIf="inputType !== 'textarea' && inputType !== 'select'" [(ngModel)]="value" [max]="max" [min]="min" [placeholder]="placeholder">
+    <textarea class="seu-input-item" (input)="inputChange()" *ngIf="inputType === 'textarea'" [rows]="rows" [(ngModel)]="value" [placeholder]="placeholder">
+    </textarea>
+    <span >{{ label }}</span>
+    <div *ngIf="inputType == 'select'">{{ selectedText }}</div>
+</div>

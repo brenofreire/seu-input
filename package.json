@@ -1,0 +1,15 @@
+{
+    "name": "@brenofreire/seu-input",
+    "version": "0.1.0",
+    "description": "SeuMenuPainel default input",
+    "license": "MIT",
+    "repository": "brenofreire/seu-input",
+    "main": "index.js",
+    "keywords": [
+        "seumenu",
+        "input"
+    ],
+    "dependencies": {
+        "@angular/core": "^9.0.1"
+    }
+}
